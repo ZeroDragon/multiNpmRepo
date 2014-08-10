@@ -1,5 +1,5 @@
 {
-  "name": "multiNpmRepo",
+  "name": "titleize",
   "version": "0.32.7-a",
   "description": "Titleize is the ol' function from Ruby on Rails on node",
   "main": "bin/titleize.js",

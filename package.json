@@ -1,0 +1,32 @@
+{
+  "name": "multiNpmRepo",
+  "version": "0.32.7-a",
+  "description": "Una prueba de concepto de que se pueden definir paquetes de npm como branches y requerirlas dentro del master sin la necesidad de tenerlas en desarrollo",
+  "main": "bin/multinpmrepo.js",
+  "scripts": {
+    "test": "nodeunit test/multinpmrepo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ZeroDragon/multiNpmRepo.git"
+  },
+  "keywords": [
+    "multi",
+    "npm",
+    "dependencies"
+  ],
+  "author": "ZeroDragon <npm@zerothedragon.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZeroDragon/multiNpmRepo/issues"
+  },
+  "homepage": "https://github.com/ZeroDragon/multiNpmRepo",
+  "devDependencies": {
+    "nodeunit": "~0.9.0"
+  },
+  "dependencies": {
+    "titleize": "git+ssh://git@github.com:ZeroDragon/multiNpmRepo.git#Titleize",
+    "objectcloner": "git+ssh://git@github.com:ZeroDragon/multiNpmRepo.git#Objectcloner",
+    "nicelogger": "~0.32.7-a"
+  }
+}
